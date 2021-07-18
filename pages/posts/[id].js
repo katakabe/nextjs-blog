@@ -17,15 +17,6 @@ export default function Post({ postData }) {
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
-      {/* {postData.date} を以下で置き換える */}
-      <Date dateString={postData.date} />
-      {postData.title}
-      <br />
-      {postData.id}
-      <br />
-      {postData.date}
-      <br />
-      <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </Layout>
   )
 }
@@ -39,7 +30,6 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  // "await" キーワードを以下のように追加する
   const postData = await getPostData(params.id)
   return {
     props: {
