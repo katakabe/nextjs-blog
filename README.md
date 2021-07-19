@@ -1,6 +1,21 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# Next.js blog(Tutorial)
+Next.js を学ぶため、[こちら](https://qiita.com/thesugar/items/01896c1faa8241e6b1bc)を参考に作成
 
-参考サイト
-https://qiita.com/thesugar/items/01896c1faa8241e6b1bc
+# Requirement
 
-node.js 12.13.0# nextjs-blog
+* bootstrap   : 5.0.0-beta3
+* gray-matter : ^4.0.3
+* next        : ^10.0.0
+* react       : 17.0.1
+* eslint      : ^7.31.0
+
+# Note
+
+お問い合わせフォーム送信機能に関しては API 取得待ち
+
+# Author
+
+作成情報を列挙する
+
+* 作成者  :片伯部 省平
+* E-mail  :katakabe.shi@gmail.com
