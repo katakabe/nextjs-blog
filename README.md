@@ -15,7 +15,5 @@ Next.js を学ぶため、[こちら](https://qiita.com/thesugar/items/01896c1fa
 
 # Author
 
-作成情報を列挙する
-
 * 作成者  :片伯部 省平
 * E-mail  :katakabe.shi@gmail.com
